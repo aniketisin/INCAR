@@ -1,0 +1,38 @@
+#############################################################
+## JOB DESCRIPTION                                         ##
+#############################################################
+
+# Energy Minimization
+
+
+#############################################################
+## ADJUSTABLE PARAMETERS                                   ##
+#############################################################
+numsteps                4000
+minimization            on
+
+coordinates             1C0A_rna_autopsf_modified.pdb
+outputname              1C0A_rna_min
+outputEnergies          100
+binaryoutput            no
+DCDFreq                 100
+restartFreq             100
+
+structure               1C0A_rna_autopsf_modified.psf
+paraTypeCharmm          on
+parameters              par_all27_na_lipid.inp
+exclude                 scaled1-4
+1-4scaling              1.0
+switching               on
+switchdist              8.0
+cutoff                  12.0
+pairlistdist            13.5
+margin                  0.0
+stepspercycle           20
+if  {1} {
+fixedAtoms              on
+fixedAtomsFile          fix_all.pdb 
+
+fixedAtomsCol           B
+}
+

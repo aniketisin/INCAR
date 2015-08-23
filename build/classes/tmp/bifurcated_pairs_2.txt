@@ -1,0 +1,5 @@
+Bifuricated Pairs : 
+D--H-AA 942B 928B N2G - H21 < N3C O2C
+DD-HH-A 942B 928B N2G N1G - H21 H1 > N3C
+
+

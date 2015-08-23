@@ -1,0 +1,7 @@
+#####################
+# Set Parameters #
+#####################
+
+maximum distance between the rings (Angstrom):	5.5
+angle between the 2 normals to the base planes:	30
+angle between a normal and the distance vector:	40

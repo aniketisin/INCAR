@@ -1,0 +1,2 @@
+Water Mediated Base Pairs :
+G 64 R HOH 1038 R HOH 1038 R A 65 R

@@ -1,0 +1,21 @@
+1. Keep the following files in the same directory as the pdb file for which you want to find the stacked bases,
+
+code1.py
+code2.py
+code3.py
+param
+run_stacking.sh
+
+2. To set permissions for run_stacking.sh to be an executable, run the command,
+
+chmod 777 run_stacking.sh
+
+3. To find the stacked bases,
+./run_stacking.sh <PDB id>
+
+For example, if the PDB of interest is 1KXK.pdb,
+./run_stacking.sh 1KXK
+
+4. The files generated are, 
+<PDB id>_stacked_bases : displays all stacked pairs in list fom
+<PDB id>_nomenclature : displays all stacked pairs differentiated into the distant and consecutive stacking with the correct stacking nomenclature conventions.
